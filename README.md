@@ -1,2 +1,2 @@
 # My-Portfolio
-hello i am barshana bhattarai
+Hello, I am Barshana Bhattarai
