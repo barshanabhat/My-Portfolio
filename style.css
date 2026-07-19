@@ -563,3 +563,56 @@
     .contact-card h2{ font-size:34px; }
     .contact-photo .photo{ height:340px; }
   }
+
+  /* ========================= */
+/* Additional Mobile Fixes */
+/* ========================= */
+@media (max-width:560px){
+
+  .wrap{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  nav.wrap{
+    padding-top:18px;
+    padding-bottom:18px;
+    gap:12px;
+  }
+
+  .logo{
+    font-size:16px;
+  }
+
+  .btn-orange{
+    padding:10px 16px;
+    font-size:13px;
+  }
+
+  .hero{
+    padding-top:55px;
+    padding-bottom:60px;
+  }
+
+  .hero-text{
+    text-align:center;
+  }
+
+  .hero-tagline{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .hero-photo{
+    width:90%;
+  }
+
+  .skills-grid{
+    grid-template-columns:1fr;
+  }
+
+  .contact-card{
+    padding:32px 20px;
+  }
+
+}
