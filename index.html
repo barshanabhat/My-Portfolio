@@ -1,174 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barshana Bhattarai | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barshana Bhattarai — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Barshana Bhattarai</h1>
-    <p>Information Technology Student | UI/UX Designer | Web Developer</p>
-
-    <hr>
-
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+  <header>
+    <nav class="wrap">
+      <a href="#" class="logo"><span class="star">✦</span> Barshana Bhattarai</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <a href="#contact" class="btn-orange">Contact Me</a>
     </nav>
+  </header>
 
-    <hr>
-</header>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <h1 class="hero-title display">BARSHANA<br>BHATTARAI</h1>
+        <p class="hero-tagline">IT STUDENT <span class="dot">✦</span> UI/UX ENTHUSIAST</p>
+      </div>
+      <div class="hero-visual">
+        <span class="sparkle s2">✦</span>
+        <span class="sparkle s1">✦</span>
+        <div class="hero-blob"></div>
+        <div class="hero-photo placeholder">
+          <img src="hero-illustration.png" alt="Illustration of Barshana Bhattarai">
+        </div>
+        <span class="sparkle s3">✦</span>
+      </div>
+    </div>
+    <a href="#about" class="scroll-badge">Scroll<br>down <span class="arrow">⌄</span></a>
+  </section>
 
-<main>
+  <div class="divider"></div>
 
-<section id="about">
-    <h2>About Me</h2>
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-text">
+        <p class="eyebrow">Hello,</p>
+        <h2>I'm Barshana!</h2>
+        <div class="about-rule"></div>
+        <p>I am currently pursuing my Bachelor's degree in Information Technology. I enjoy learning new technologies and working on creative projects that challenge me and help me grow.</p>
+        <a href="https://linkedin.com/in/barshana-bhattarai" class="btn-pill-li">
+          <span class="li-icon">in</span> linkedin.com/in/barshana-bhattarai
+        </a>
+      </div>
 
- 
-    <p>
-        Hello! I am Barshana Bhattarai, an Information Technology student with
-        an interest in web development, UI/UX design, database management,
-        and programming. I enjoy creating simple and user-friendly digital
-        solutions while continuously improving my technical skills.
-    </p>
+      <div class="polaroid">
+        <div class="tape"></div>
+        <div class="photo placeholder">
+          <img src="about-photo.jpeg" alt="Photo of Barshana Bhattarai">
+        </div>
+        <span class="squiggle">~</span>
+    </div>
+  </section>
 
-    <hr>
-</section>
+  <!-- ============ EDUCATION / SKILLS ============ -->
+  <section class="green-section">
+    <div class="wrap">
+      <div id="education">
+        <div class="section-head">
+          <span class="ic">🎓</span>
+          <h2>Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="t-item">
+            <p class="t-year">2024 – Present</p>
+            <p class="t-title">Bachelor in Information Technology</p>
+            <p class="t-sub">Model Institute of Technology (MIT)</p>
+          </div>
+          <div class="t-item">
+            <p class="t-year">2020 – 2022</p>
+            <p class="t-title">+2 Science</p>
+            <p class="t-sub">Kathmandu Model College</p>
+          </div>
+          <div class="t-item">
+            <p class="t-year">2016 – 2020</p>
+            <p class="t-title">SEE</p>
+            <p class="t-sub">Radiant Public Boarding School</p>
+          </div>
+        </div>
+      </div>
 
-<section id="skills">
-    <h2>Technical Skills</h2>
+      <div id="skills">
+        <div class="section-head">
+          <span class="ic">🖥</span>
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-ic uiux">UI</div>
+            <div>
+              <h4>UI/UX Design</h4>
+              <p>Designing user-centered interfaces and wireframes.</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-ic html">&lt;/&gt;</div>
+            <div>
+              <h4>HTML</h4>
+              <p>Building structured and semantic web pages.</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-ic css">{ }</div>
+            <div>
+              <h4>CSS</h4>
+              <p>Creating responsive and modern layouts.</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-ic figma">Fg</div>
+            <div>
+              <h4>Figma</h4>
+              <p>Designing, prototyping and collaborating.</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-ic mkt">Mk</div>
+            <div>
+              <h4>Marketing</h4>
+              <p>Creating content, planning campaigns and understanding audiences.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <dl>
-        <dt><strong>HTML5</strong></dt>
-        <dd>Creating semantic and accessible web pages.</dd>
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="experience" id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="ic">💼</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <div class="exp-ic">🎨</div>
+          <h4>UI/UX Design</h4>
+          <p>Designed wireframes, layouts and user-friendly interfaces.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-ic">&lt;/&gt;</div>
+          <h4>HTML &amp; CSS</h4>
+          <p>Developed responsive websites using HTML, CSS, Flexbox and Grid.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-ic">◈</div>
+          <h4>Figma</h4>
+          <p>Created wireframes, UI designs and interactive prototypes.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-ic">📣</div>
+          <h4>Marketing</h4>
+          <p>Created social media content, campaign ideas and engaging messages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <dt><strong>Figma</strong></dt>
-        <dd>Designing wireframes and mobile interfaces.</dd>
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-wrap">
+      <div class="contact-card">
+        <div class="contact-details">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Let's connect</h2>
+          <p class="contact-copy">I'm open to internship opportunities, portfolio feedback and creative web or UI/UX projects.</p>
+          <ul>
+            <li><span class="icon">📍</span> Kathmandu, Nepal</li>
+            <li><span class="icon">✉</span> <a href="mailto:barshanabhattarai123@gmail.com">barshanabhattarai123@gmail.com</a></li>
+            <li><span class="icon">📞</span> <a href="tel:+9779801234567">+977 980 123 4567</a></li>
+            <li><span class="icon">in</span> <a href="https://linkedin.com/in/barshana-bhattarai">linkedin.com/in/barshana-bhattarai</a></li>
+          </ul>
+        </div>
 
-        <dt><strong>C Programming</strong></dt>
-        <dd>Console applications and file handling.</dd>
+        <div class="contact-photo">
+          <div class="tape"></div>
+          <div class="photo placeholder">
+            <img src="experience-photo.png" alt="Photo of Barshana Bhattarai">
+          </div>
+          <span class="exp-sparkle">✦</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <dt><strong>SQL</strong></dt>
-        <dd>Database design and queries.</dd>
+  <footer>
+    &copy; 2026 Barshana Bhattarai. Built with <span>♥</span> and a lot of coffee.
+  </footer>
 
-        <dt><strong>Java</strong></dt>
-        <dd>Object-oriented programming fundamentals.</dd>
-    </dl>
-
-    <hr>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-
-    <article>
-        <h3>HireAGuide Mobile Application</h3>
-
-        <p>
-            Designed a travel guide booking application using Figma with
-            multilingual support, secure payments, reviews, and chat features.
-        </p>
-
-        <p>
-            <strong>Repository:</strong>
-            <a href="https://github.com/yourusername/HireAGuide" target="_blank">
-                View Project
-            </a>
-        </p>
-    </article>
-
-    <hr>
-
-    <article>
-        <h3>Personal Diary Management System</h3>
-
-        <p>
-            Developed a diary management system in C language using structures
-            and binary file handling to store, update, search, and delete notes.
-        </p>
-
-        <p>
-            <strong>Repository:</strong>
-            <a href="https://github.com/yourusername/Diary-System" target="_blank">
-                View Project
-            </a>
-        </p>
-    </article>
-
-    <hr>
-</section>
-
-<section id="education">
-    <h2>Education</h2>
-
-    <table border="1">
-        <caption>Academic Background</caption>
-
-        <tr>
-            <th>Qualification</th>
-            <th>Institution</th>
-            <th>Status</th>
-        </tr>
-
-        <tr>
-            <td>Bachelor in Information Technology</td>
-            <td>Model Institute of Technology</td>
-            <td>Currently Studying</td>
-        </tr>
-    </table>
-
-    <hr>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <form action="#" method="post">
-
-        <fieldset>
-
-            <legend>Send Me a Message</legend>
-
-            <p>
-                <label for="name">Full Name</label><br>
-                <input type="text" id="name" name="name" required>
-            </p>
-
-            <p>
-                <label for="email">Email Address</label><br>
-                <input type="email" id="email" name="email" required>
-            </p>
-
-            <p>
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message" rows="5" cols="40" required></textarea>
-            </p>
-
-            <button type="submit">Send Message</button>
-
-            <button type="reset">Reset</button>
-
-        </fieldset>
-
-    </form>
-
-</section>
-
-</main>
-<hr>
-<footer>
-    <p><strong>Barshana Bhattarai</strong></p>
-    <p>Email: barshana@example.com</p>
-    <p>&copy; 2026 All Rights Reserved.</p>
-</footer>
 </body>
 </html>
